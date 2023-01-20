@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les meilleurs jeux de société - Panier</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <h1 class="store_title">
+    Les meilleurs jeux de société
+  </h1>
+
+  <div class="products">
+      <div class="product">
+        <img class="product_img" src="images/abyss.png" />
+        <span class="product_name">Abyss</span>
+        <button type="button" class="product_buy" id="btn_add_product_1">Ajouter au panier</button>
+      </div>
+      <div class="product">
+        <img class="product_img" src="images/kanagawa.png" />
+        <span class="product_name">Kanagawa</span>
+        <button type="button" class="product_buy" id="btn_add_product_2">Ajouter au panier</button>
+      </div>
+  </div>
+
+  <h2 class="cart_title">Panier</h2>
+  <form class="cart_list">
+      <div class="cart_list_item">
+        <label for="product_1">Abyss</label>
+        <input class="quantity" id="product_1" type="texte" value="0" />
+      </div>
+      <div class="cart_list_item">
+        <label for="product_2">Kanagawa</label>
+        <input class="quantity" id="product_2" type="texte" value="0" />
+      </div>
+  </form>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
